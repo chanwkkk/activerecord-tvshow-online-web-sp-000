@@ -6,5 +6,6 @@ class Show < ActiveRecord::Base
 
   def self.most_popular_show
     Show.order("rating Desc").limit(1)
+  end
 
 end
