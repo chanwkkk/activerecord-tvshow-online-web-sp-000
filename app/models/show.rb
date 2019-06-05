@@ -8,6 +8,6 @@ class Show < ActiveRecord::Base
     Show.order("rating Desc").limit(1)
   end
 
-  
+
 
 end
